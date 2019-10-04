@@ -1,1 +1,3 @@
 rootProject.name = 'how-tomcat-works'
+
+include ':chapter1'
