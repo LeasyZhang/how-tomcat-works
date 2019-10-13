@@ -1,10 +1,24 @@
 plugins {
     id 'java'
-    id 'application'
 }
 
+group 'book.tomcat'
+version '1.0-snapshot'
+
 repositories {
-    jcenter()
+    mavenCentral()
+}
+
+subprojects {
+    repositories {
+        mavenCentral()
+    }
+
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+
+    group 'book.tomcat'
+    version '1.0-snapshot'
 }
 
 dependencies {
