@@ -3,4 +3,3 @@ rootProject.name = 'how-tomcat-works'
 include ':chapter1'
 include ':chapter2'
 include ':chapter20'
-
